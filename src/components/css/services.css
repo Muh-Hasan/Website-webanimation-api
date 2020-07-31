@@ -1,0 +1,45 @@
+.ser-flex-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ser-flex-img img {
+  margin-top: 20px;
+}
+.ser-set{
+  padding-top: 20px;
+  background-color: #fcbf49;
+}
+.ser-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center
+}
+.ser-head h2{
+  color: white;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 10px
+}
+.ser-list li{
+  list-style: none;
+  color: white;
+  margin-bottom: 10px;
+  font-weight: 500;
+
+}
+
+@media screen and (max-width: 500px) {
+  .ser-img{
+    height: 300px;
+    width: 300px
+  }
+}
+@media screen and (max-width: 360px) {
+  .ser-img{
+    height: 250px;
+    width: 250px
+  }
+}

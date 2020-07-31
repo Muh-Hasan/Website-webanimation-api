@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+}
+.container {
+  margin-left: 75px;
+  margin-right: 75px;
+}
+.MuiToolbar-root {
+  background-color: #3a86ff;
+  
+}
+.MuiButton-root{
+  color: white !important;
+}
+
+
+@media screen and (max-width: 500px) {
+  .container{
+    margin-left: 30px;
+    margin-right: 30px;  
+  }
+}

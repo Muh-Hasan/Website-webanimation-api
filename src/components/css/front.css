@@ -1,0 +1,44 @@
+
+.front-flex {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #fcbf49;
+}
+.front-para {
+  text-align: center;
+}
+.foot-color-flex {
+  display: flex;
+  background-color: #e0e0e0;
+}
+.front-button {
+  border: none;
+  outline: none;
+  background: #7bdff2;
+  padding: 8px 25px;
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.front-para p {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+@media screen and (max-width: 515px) {
+  .front-img{
+    height: 400px;
+    width: 400px;
+  }
+}
+@media screen and (max-width: 440px) {
+  .front-img{
+    height: 300px;
+    width: 300px;
+  }
+}

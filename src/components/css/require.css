@@ -1,0 +1,34 @@
+.req-flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.req-head{
+  text-align: center;  
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+.req-head h2{
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+.main-req{
+  background-color: #3a86ff;
+}
+.req-para p {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
+.req-para{
+  text-align: center;
+}
+@media screen and (max-width: 420px) {
+  .req-img{
+    height: 300px;
+    width: 300px
+  }
+}

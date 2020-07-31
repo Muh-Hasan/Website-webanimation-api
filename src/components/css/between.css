@@ -1,0 +1,50 @@
+.between {
+  background-color: #3a86ff;
+}
+.bet-h2 {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.bet-p {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.bet-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bet-worker img{
+  height: 200px;
+  border-radius : 50%;
+}
+.bet-worker{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.description-worker{
+  color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.description-worker h6{
+  font-weight: 600;
+  font-size: 18px;
+}
+.description-worker p{
+  font-weight: 500;
+  font-size: 15px
+}
+.bet-para{
+padding-top: 20px;
+margin-bottom: 20px;
+}
